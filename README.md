@@ -43,3 +43,7 @@ await runTask(); // runs immediately (result is memoized)
 ```
 
 Integrated with `fp-ts` or any other library with a `Task` implementation
+
+## TODO:
+
+- [ ] Add more functions
