@@ -21,6 +21,7 @@
   "main": "dist/index.js",
   "unpkg": "dist/index.global.js",
   "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "scripty",
     "clean": "scripty",
