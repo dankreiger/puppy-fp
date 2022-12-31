@@ -1,0 +1,20 @@
+pre-commit:
+  parallel: true
+  commands:
+    lint:
+      glob: 'src/**/*.{js,ts,tsx}'
+      run: npm run lint
+    format:
+      run: npm run format:write
+    build:
+      run: npm run build
+    check-branch:
+      run: npm run commit:protect
+commit-msg:
+  commands:
+    check-commits:
+      run: npx commitlint --edit
+post-merge:
+  install-deps-postmerge:
+    tags: frontend
+    run: npx install-deps-postmerge

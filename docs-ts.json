@@ -1,0 +1,11 @@
+{
+  "projectHomepage": "https://github.com/dankreiger/groop",
+  "srcDir": "src",
+  "outDir": "docs",
+  "exclude": [
+    "**/**/index.ts",
+    "**/**/*.spec.ts",
+    "**/**/either",
+    "**/**/taskEither"
+  ]
+}
