@@ -4,7 +4,7 @@ For puppies that are afraid of the outside world.
 
 ## Documentation
 
-[Documentation](http://dankreiger.github.io/puppy-fp)
+[Documentation](https://dankreiger.github.io/puppy-fp)
 
 ## License
 

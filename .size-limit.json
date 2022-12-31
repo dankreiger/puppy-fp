@@ -1,0 +1,17 @@
+[
+  {
+    "name": "UMD",
+    "path": "./dist/index.global.js",
+    "limit": "40 B"
+  },
+  {
+    "name": "Module",
+    "path": "./dist/index.mjs",
+    "limit": "10 B"
+  },
+  {
+    "name": "CJS",
+    "path": "./dist/index.js",
+    "limit": "400 B"
+  }
+]
