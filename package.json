@@ -31,7 +31,7 @@
     "format:check": "scripty",
     "format:write": "scripty",
     "lint": "scripty",
-    "semantic-release": "scripty",
+    "release": "scripty",
     "size": "scripty",
     "size:analyze": "scripty",
     "test": "scripty",
