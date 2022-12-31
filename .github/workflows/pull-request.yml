@@ -21,5 +21,3 @@ jobs:
         run: npm run build
       - name: Check size
         run: npm run size
-        with:
-          github_token: ${{ secrets.GH_TOKEN }}
