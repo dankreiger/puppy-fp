@@ -16,7 +16,7 @@ Note that a task's computation must not be able to fail.
 **Example**
 
 ```ts
-import { taskify } from 'puppy-fp'
+import { taskify } from '@dankreiger/puppy-fp'
 ;(async () => {
   const longRunning = () => new Promise((resolve) => setTimeout(resolve, 1000))
   const runTask = taskify(longRunning)
@@ -63,7 +63,7 @@ export declare function taskify<T>(fn: () => Promise<T>): () => Promise<T>
 **Example**
 
 ```ts
-import { taskify } from 'puppy-fp'
+import { taskify } from '@dankreiger/puppy-fp'
 ;(async () => {
   const longRunning = () => new Promise((resolve) => setTimeout(resolve, 1000))
   const runTask = taskify(longRunning)

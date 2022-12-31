@@ -13,7 +13,7 @@
  * @since 0.0.1
 
  * @example
- * import { taskify } from 'puppy-fp'
+ * import { taskify } from '@dankreiger/puppy-fp'
  * 
  * (async () => {
  *   const longRunning = () => new Promise((resolve) => setTimeout(resolve, 1000));

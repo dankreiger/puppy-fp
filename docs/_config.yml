@@ -5,5 +5,5 @@ search_enabled: true
 
 # Aux links for the upper right navigation
 aux_links:
-  'puppy-fp on GitHub':
-    - 'https://github.com/dankreiger/groop'
+  '@dankreiger/puppy-fp on GitHub':
+    - 'https://github.com/dankreiger/puppy-fp'
